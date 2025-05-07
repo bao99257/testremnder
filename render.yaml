@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: testremnder
+    buildCommand: npm install && npm run build  # Or your specific build command
+    publishDir: build  # Or your specific output directory (dist, public, etc.)
