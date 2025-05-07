@@ -1,5 +1,5 @@
 services:
   - type: web
     name: testremnder
-    buildCommand: npm install && npm run build  # Or your specific build command
-    publishDir: build  # Or your specific output directory (dist, public, etc.)
+    buildCommand: ""  # No build needed for static HTML
+    publishDir: "."  # Use the root directory
